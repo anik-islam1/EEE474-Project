@@ -3,7 +3,7 @@
 
 This project implements an unsupervised learning approach for clustering handwritten digits using a combination of deep learning and neural clustering techniques. The main goal is to group digit images without using labels and evaluate the clustering performance.
 
-## 📊 Project Overview
+## Project Overview
 
 We use the following pipeline:
 
@@ -13,7 +13,7 @@ We use the following pipeline:
 - Visualization using **t-SNE**
 - Evaluation using clustering metrics with true digit labels
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 ### Autoencoder
 Used for dimensionality reduction:
@@ -26,13 +26,13 @@ Used for dimensionality reduction:
 - **KMeans**: Standard unsupervised clustering.
 - **MiniSom**: A 2D Self-Organizing Map (Kohonen Network) for topological clustering.
 
-## 📦 Dataset
+##  Dataset
 
 - Image-based dataset of handwritten digits.
 - Images are preprocessed and flattened into 1D vectors.
 - Labels are used only for clustering performance evaluation.
 
-## 🧪 Evaluation Metrics
+##  Evaluation Metrics
 
 Since the task is unsupervised, we use the following clustering metrics:
 
@@ -43,12 +43,12 @@ Since the task is unsupervised, we use the following clustering metrics:
 - Adjusted Rand Index (ARI)
 - Adjusted Mutual Information (AMI)
 
-## 📈 Visualizations
+##  Visualizations
 
 - 2D t-SNE projection of encoded vectors.
 - Cluster visualization colored by KMeans/SOM predictions.
 
-## ❗ Limitations
+##  Limitations
 
 - No dropout or batch normalization applied.
 - MiniSom has randomness and can yield variable results.
