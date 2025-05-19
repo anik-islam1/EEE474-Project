@@ -54,7 +54,7 @@ Since the task is unsupervised, we use the following clustering metrics:
 - MiniSom has randomness and can yield variable results.
 - Limited parameter search.
 
-## 🛠 Requirements
+##  Requirements
 
 ```bash
 pip install tensorflow scikit-learn minisom seaborn matplotlib pandas
